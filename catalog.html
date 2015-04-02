@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NERDS Каталог</title>
+	<link href ="style.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,500&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<div class="header-main">
+			<div class="container">
+				<div class="header-nav clearfix">
+					<div class="nav-logo grid-col-4"> 
+						<img src="img/logo.png">
+					</div>
+					<ul class="nav-bar">
+						<li><a href="index.html">Студия </a></li>
+						<li><a href="#">Клиенты </a></li>
+						<li><a class="active" href="#">Магазин </a></li>
+						<li><a href="#">Контакты </a> </li>
+					</ul>
+					<div class="cart"> <a href="#"> Корзина </a></div>
+				</div>
+				<div class="catalog-title"> Добро пожаловать в магазин готовых макетов </div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<section class="clearfix">
+			<div class="catalog-filter">
+				<h3 class="filter-title">Стоимость:</h3>
+				<div class="range-filter">
+
+					<div class="range-controls">
+						<div class="scale">
+							<div class="bar"></div>
+						</div>
+						<div class="toggle toggle-min"></div>
+						<div class="toggle toggle-max"></div>
+					</div>
+					<div class="price-controls clearfix">
+						<label for="min"> от </label> <input type="text" class="price-min" id="min" value="0">
+						<label for="max"> до </label> <input type="text" class="price-max" id="max" value="15 000">
+					</div>
+				</div>
+				<div class="layout">
+					<h3 class="filter-title">Сетка:</h3>
+					<input type="radio" name="layout" value="Адаптивная" id="adapt" checked> 
+					<label for="adapt">Адаптивная </label>
+					<input type="radio" name="layout" value="Фиксированная" id="fixed">
+					<label for="fixed">Фиксированная</label>
+					<input type="radio" name="layout" value="Резиновая" id="flex">
+					<label for="flex">Резиновая</label>
+				</div>
+				<div class="catalog-features">
+					<h3 class="filter-title">Особенности:</h3>
+					<input type="checkbox" id="sli" checked> <label for="sli">Слайдер</label>
+					<input type="checkbox" id="adv"> <label for="adv">Блок преимуществ</label>
+					<input type="checkbox" id="news" checked> <label for="news">Новости</label>
+					<input type="checkbox" id="gallery"> <label for="gallery">Галерея</label>
+					<input type="checkbox" id="cart"><label for="cart">Корзина</label>
+				</div>
+			</div>
+			<div class="cat-container">
+				<ul class="sort-by grid-col-6">
+					<h3 class="sort-by-title">Сортировать:</h3>
+					<li><a href="#">По цене</a></li>
+					<li><a href="#">По типу</a></li>
+					<li><a href="#">По функционалу</a></li>
+				</ul>
+				<div class="gallery-controls">
+					<a class="icon-down-dir" href="#"></a>
+					<a class="icon-up-dir" href="#"></a>
+				</div>
+				<div class="clearfix">
+					<div class="cat-pic">
+						<div class="cat-desc">
+							<h4 class="sub-title">
+								Sunset
+							</h4>
+							<p class-"feat-text">Интернет-магазин с личным кабинетом</p> 
+							<a class="btn btn-red" href="#">10 000 Р.</a> </div>
+							<img class="cat-img" src="img/nerds2_03.jpg">
+						</div>
+						<div class="cat-pic">
+							<div class="cat-desc">
+								<h4 class="sub-title">
+									Sunset
+								</h4>
+								<p class-"feat-text">Интернет-магазин с личным кабинетом</p> 
+								<a class="btn btn-red" href="#">10 000 Р.</a>
+							</div>
+							<img class="cat-img" src="img/nerds2_05.jpg"></div>
+							<div class="cat-pic">
+								<div class="cat-desc"><h4 class="sub-title">
+									Sunset
+								</h4>
+								<p class-"feat-text">Интернет-магазин с личным кабинетом</p> 
+								<a class="btn btn-red" href="#">10 000 Р.</a> </div>
+								<img class="cat-img"src="img/nerds-catalog_10.jpg"></div>
+								<div class="cat-pic">
+									<div class="cat-desc"><h4 class="sub-title">
+										Sunset
+									</h4>
+									<p class-"feat-text">Интернет-магазин с личным кабинетом</p> 
+									<a class="btn btn-red" href="#">10 000 Р.</a> </div>
+									<img class="cat-img"src="img/nerds2_11.jpg"></div>
+									<div class="cat-pic">
+										<div class="cat-desc"><h4 class="sub-title">
+											Sunset
+										</h4>
+										<p class-"feat-text">Интернет-магазин с личным кабинетом</p> 
+										<a class="btn btn-red" href="#">10 000 Р.</a> </div>
+										<img class="cat-img" src="img/nerds-catalog_14.jpg"></div>
+										<div class="cat-pic">
+											<div class="cat-desc"> <h4 class="sub-title">
+												Sunset
+											</h4>
+											<p class-"feat-text">Интернет-магазин с личным кабинетом</p> 
+											<a class="btn btn-red" href="#">10 000 Р.</a></div>
+											<img class="cat-img" src="img/nerds2_16.jpg"></div>
+										</div>
+										<ul class="pager">
+											<li class="active"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>	
+											<li class="next"><a href="#">Следующая</a></li>
+										</ul>
+									</div>
+								</section>
+								<section>
+									<form class="write-us-form" method="post" action="#">
+										<fieldset class="clearfix">
+											<div class="one-half">
+												<label for="your-name" class="write-us-field">Ваше имя: <br>
+													<input type="text"  name="your-name" id-"your-name" placeholder="Представьтесь пожалуйста"> </label>
+												</div>
+												<div class="one-half">
+													<label for="your-email" class="write-us-field">Ваш e-mail: <br>
+														<input type="email"  name="your-email" id="your-password" placeholder="Для отправки ответа"></label>
+													</div>
+												</fieldset>
+												<div class="one">
+													<label for="your-message">Текст письма:</label>
+													<textarea rows="5" name="your-message" id="your-message" placeholder="В свободной форме"></textarea>
+												</div>
+												<fieldset class="clearfix">
+													<div class="one-fifty">
+														<input type="submit" id="write-us-send" class="btn btn-red" value="Отправить">
+													</div>
+													<div class="one-fifty">
+														<input type="submit" id="write-us-cancel" value="Отмена">
+													</div>
+												</fieldset>
+
+											</form>
+										</section>
+									</div>
+									<footer>
+										<section id="map">
+											<div class="map-address">
+												<div class="address">
+													<h3 class="address-title"><strong>Nёrds </strong>design studio</h3>
+													<p class="feat-text">350000 Краснодар,</p>
+
+													<p class="feat-text">ул. Головатого 100</p>
+													<br>
+													<p class="feat-text">тел. +7(861)275-75-75</p>
+													<a href="#" class="btn btn-red btn-write write-us-now">Напишите нам</a>
+												</div>
+											</div>
+										</section>
+										<section class="container clearfix footer-text">
+											<div class="grid-col-4">
+												<a class="share vk" href="http://vk.com/"></a>
+												<a class="share fb" href="https://www.facebook.com/"></a>
+												<a class="share insta" href="http://instagram.com/"></a>
+											</div>
+											<div class="discount">
+												<p class="main-title"> Давайте дружить, это выгодно!</p>
+												<p class="feat-text"> Скидка 10% для друзей из социальных сетей. </p>
+											</div>
+
+										</section>
+
+									</footer>
+								<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+								<script>
+								ymaps.ready(init);
+								var myMap,
+								myPlacemark;
+
+
+								function init(){ 
+									myMap = new ymaps.Map("map", {
+										center: [45.043626, 38.94454],
+										zoom: 18
+									}); 
+
+									myPlacemark = new ymaps.Placemark([45.043626, 38.94454], {}, {
+										iconLayout: 'default#image',
+										iconImageHref: 'http://barbershop-borodinski.ru/ignatieva/nerds/img/map-marker.png',
+										iconImageSize: [210, 180],
+										iconImageOffset: [-20, -180]
+
+									});
+
+									myMap.geoObjects.add(myPlacemark);
+								}
+								</script>
+								<script>
+								var link = document.querySelector('.write-us-now');
+								var popup = document.querySelector('.write-us-form');
+								var cancel = popup.querySelector('#write-us-cancel');
+
+								link.addEventListener('click', function(event) {
+									event.preventDefault();
+									popup.classList.add('write-us-form-show');
+								}, false);
+
+								cancel.addEventListener('click', function(event) {
+									event.preventDefault();
+									popup.classList.remove('write-us-form-show');
+								}, false);
+								</script>
+							</body>
+							</html>
